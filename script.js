@@ -5,19 +5,19 @@ const increaseBtn = document.getElementById('increase');
 const decreaseBtn = document.getElementById('decrease');
 const resetBtn = document.getElementById('reset');
 
-increaseBtn.addEventListener('click', () => {
+increase.addEventListener('click', () => {
     counter++;
     updateCounter();
     changeColor('green');
 });
 
-decreaseBtn.addEventListener('click', () => {
+decrease.addEventListener('click', () => {
     counter--;
     updateCounter();
     changeColor('red');
 });
 
-resetBtn.addEventListener('click', () => {
+reset.addEventListener('click', () => {
     counter = 0;
     updateCounter();
     changeColor('black');
